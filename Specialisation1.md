@@ -27,7 +27,7 @@ Parameters & inputs :
 * W : inputs x outputs
 * b: 1 x outputs
 
-Logistic regression: Given X, we want <img src="https://latex.codecogs.com/gif.latex?$y_{predicted}&space;=&space;P(y=1&space;|&space;x)$" title="$y_{predicted} = P(y=1 | x)$" />
+Logistic regression: Given X, we want $y_{predicted} = P(y=1 | x)$
 
 To have the output in the range of [0,1], to be interpreted as probability, we use a non linear activation function : sigmoid, to squash the results:
 
